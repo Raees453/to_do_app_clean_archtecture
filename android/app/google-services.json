@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1061268996604",
+    "project_id": "some-app-c0112",
+    "storage_bucket": "some-app-c0112.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061268996604:android:f94833223bd55f7d683279",
+        "android_client_info": {
+          "package_name": "com.senarios.some_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwf67zM8lF1uFMVTToxx6nRlalIJtjt90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061268996604:android:6749f568ef6b8a9d683279",
+        "android_client_info": {
+          "package_name": "dev.awp.to_do_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwf67zM8lF1uFMVTToxx6nRlalIJtjt90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
