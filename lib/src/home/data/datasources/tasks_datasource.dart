@@ -35,9 +35,7 @@ class TasksRepoRemoteDataSrcImpl implements TasksRepoRemoteDataSrc {
 
       await ref.set({'id': ref.id, 'name': params.name, 'date': params.date.toString()});
 
-      final data = (await ref.get()).data()!..putIfAbsent('id', () => ref.id);
-
-      print('DDDD is: ${data.toString()}');
+      final data = (await ref.get()).data()!;
 
       return TaskModel.fromJson(data);
     } catch (e, stackTrace) {

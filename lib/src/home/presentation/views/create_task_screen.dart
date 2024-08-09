@@ -73,8 +73,6 @@ class _CreateTaskScreenState extends ConsumerState<CreateTaskScreen> {
   }
 
   Future<void> _onSelectTaskDatePressed() async {
-    print('Hello');
-
     final date = await showDatePicker(
       context: context,
       firstDate: DateTime.now().subtract(const Duration(days: 90)),
